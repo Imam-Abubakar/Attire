@@ -41,10 +41,10 @@ const BookCollection = () => {
   const sendEmail = (formData) => {
     emailjs
       .send(
-        'service_z3pbp0h',
-        'template_2nel7sv',
+        'service_04rbpei',
+        'template_ktmn0ih',
         formData,
-        'user_bRurspjYqg9CqaFExCU8l'
+        'xac9EvUrCeXSWccDo'
       )
       .then(
         (result) => {

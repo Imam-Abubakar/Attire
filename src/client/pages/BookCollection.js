@@ -55,10 +55,10 @@ const BookCollection = () => {
   const sendEmail = (formData) => {
     emailjs
       .send(
-        'service_z3pbp0h',
-        'template_2nel7sv',
+        'service_04rbpei',
+        'template_i34qkdk',
         formData,
-        'user_bRurspjYqg9CqaFExCU8l'
+        'xac9EvUrCeXSWccDo'
       )
       .then(
         (result) => {
@@ -322,7 +322,7 @@ const BookCollection = () => {
                     fontSize={['md', 'xl', '2xl']}
                     fontWeight={'light'}
                   >
-                    Drop of Time
+                    Drop off Time
                   </FormLabel>
                   <Controller
                     control={control}
@@ -464,7 +464,7 @@ const BookCollection = () => {
                   Thanks for your order
                 </Heading>
                 <Text textAlign={'center'} mx={'auto'}>
-                  Your order have been place our person will reach out to you
+                  Your order have been placed. We will reach out to you
                   soon.
                 </Text>
               </ModalBody>
