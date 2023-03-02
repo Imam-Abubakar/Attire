@@ -31,7 +31,6 @@ const ContactDetails = (props) => {
           fontSize={{ base: 'xs', md: 'md' }}
           fontWeight={'400'}
         >
-          // prettier-ignore
         <a href="tel:+442084622165">
           020{" "}8462{" "}2165
         </a>
