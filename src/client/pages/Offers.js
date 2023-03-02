@@ -8,10 +8,6 @@ export const Offers = [
     price: '£11.95',
   },
   {
-    title: 'Less than 5 Shirts - Wash & Press',
-    price: '£2.95 each',
-  },
-  {
     title: '3 Trousers - Dry Clean',
     price: '£15.95',
   },
